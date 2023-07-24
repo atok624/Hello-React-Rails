@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Api
   class MessagesController < ApplicationController
     def random_greeting
@@ -6,4 +8,3 @@ module Api
     end
   end
 end
-
